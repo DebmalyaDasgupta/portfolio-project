@@ -203,7 +203,7 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 /* Custom code added by me for resizing profile picture */
@@ -219,6 +219,7 @@ section {
 /* ICONS */
 
 .icon {
+  margin-right: 1rem;
   cursor: pointer;
   height: 2rem;
 }
@@ -324,6 +325,11 @@ section {
   margin: auto 0;
 }
 
+.text-container p,
+.experience-details-container p {
+  text-align: justify;
+}
+
 /* EXPERIENCE SECTIONS */
 
 h3 {
@@ -394,8 +400,15 @@ article .icon {
 }
 
 .project-btn {
+  display: inline-block;
+  text-align: center;
+  padding: 0.5rem 1rem;
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.btn-container {
+  justify-content: center; /* Center-align buttons */
 }
 
 /* CONTACT */
